@@ -407,12 +407,12 @@
           "Parameters": [
             {
               "Name": "Lipophilicity",
-              "Value": 2.0756837827,
+              "Value": 2.0799268917,
               "Unit": "Log Units",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -457,12 +457,12 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 0.1369893967,
+              "Value": 7.6146060669,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -505,12 +505,12 @@
             },
             {
               "Name": "kcat",
-              "Value": 0.7777214266,
+              "Value": 0.8066945978,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -522,11 +522,11 @@
           "Parameters": [
             {
               "Name": "GFR fraction",
-              "Value": 0.5426032482,
+              "Value": 0.5461456402,
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -558,12 +558,12 @@
             },
             {
               "Name": "kcat",
-              "Value": 13.2390746671,
+              "Value": 13.7322820855,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -597,12 +597,12 @@
       "Parameters": [
         {
           "Name": "Dissolution time (50% dissolved)",
-          "Value": 2.2021030003,
+          "Value": 12.1060809908,
           "Unit": "min",
           "ValueOrigin": {
             "Source": "ParameterIdentification",
             "Method": "ParameterIdentification",
-            "Description": "Value updated from 'IV+oral with P_int & P_mucosa (int-cell) 4' on 2018-12-03 15:09"
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
@@ -612,11 +612,45 @@
         },
         {
           "Name": "Dissolution shape",
-          "Value": 1.1173134944,
+          "Value": 0.92,
           "ValueOrigin": {
             "Source": "ParameterIdentification",
             "Method": "ParameterIdentification",
-            "Description": "Value updated from 'IV+oral with P_int & P_mucosa (int-cell) 4' on 2018-12-03 15:09"
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Solanax",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 35.8519725483,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.92,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
@@ -1421,6 +1455,668 @@
       ]
     },
     {
+      "Name": "Fleishaker1994_Alprazolam",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 5.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 5.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 7.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 7.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 15.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 15.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 17.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 17.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 87.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 87.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 89.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 89.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 108.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Fleishaker 1994",
+      "Compounds": [
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Fleishaker 1994 - Alprazolam 1 mg QID 4 days",
+            "Formulations": [
+              {
+                "Name": "Solanax",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fleishaker1994_Alprazolam-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Fleishaker1994_Alprazolam|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)|Time",
+              "Y": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Fluvoxamine-Alprazolam-DDI\nFleishaker1994_Alprazolam\n2020-03-25 18:13"
+        }
+      ]
+    },
+    {
       "Name": "Fleishaker1994_Fluvoxamine_Alprazolam",
       "Model": "4Comp",
       "ObservedData": [
@@ -1738,82 +2434,82 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Xanax_IR|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h|Solanax|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1869,178 +2565,222 @@
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         }
       ],
@@ -2114,7 +2854,7 @@
             "Name": "Fleishaker 1994 - Alprazolam 1 mg QID 4 days_starting144h",
             "Formulations": [
               {
-                "Name": "Xanax_IR",
+                "Name": "Solanax",
                 "Key": "Formulation"
               }
             ]
@@ -2197,7 +2937,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Fluvoxamine-Alprazolam-DDI\nFleishaker1994_Fluvoxamine_Alprazolam\n2020-03-16 14:20"
+          "OriginText": "Fluvoxamine-Alprazolam-DDI\nFleishaker1994_Fluvoxamine_Alprazolam\n2020-03-25 18:14"
         }
       ],
       "Interactions": [
@@ -2210,628 +2950,6 @@
           "Name": "CYP3A4-Olesen2000/Yao2001",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Fluvoxamine"
-        }
-      ]
-    },
-    {
-      "Name": "Fleishaker1994_Alprazolam",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 5.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 5.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 7.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 7.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 10.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 10.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 15.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 15.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 17.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 17.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 87.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 87.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 89.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 89.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 108.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Xanax_IR|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Fleishaker 1994",
-      "Compounds": [
-        {
-          "Name": "Alprazolam",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-alpha-OH pathway",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "CYP3A4-4-OH pathway",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Fleishaker 1994 - Alprazolam 1 mg QID 4 days",
-            "Formulations": [
-              {
-                "Name": "Xanax_IR",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": -1.238356,
-              "Max": 33.4137,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.01486593,
-              "Max": 0.1029557,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Fleishaker1994_Alprazolam-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Fleishaker1994_Alprazolam|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)|Time",
-              "Y": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "OriginText": "Fluvoxaime-Alprazolam-DDI\nFleishaker1994_Alprazolam\n2020-03-10 16:57"
         }
       ]
     }
