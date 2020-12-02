@@ -1,5 +1,5 @@
 {
-  "Version": 76,
+  "Version": 77,
   "Individuals": [
     {
       "Name": "Fleishaker 1994",
@@ -85,7 +85,24 @@
           ],
           "Ontogeny": {
             "Name": "CYP2D6"
-          }
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
         },
         {
           "Name": "CYP1A2",
@@ -117,7 +134,24 @@
           ],
           "Ontogeny": {
             "Name": "CYP1A2"
-          }
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.8,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 39.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
         },
         {
           "Name": "CYP3A4",
@@ -180,12 +214,22 @@
           },
           "Parameters": [
             {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
               "Name": "t1/2 (liver)",
               "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         }
@@ -1370,7 +1414,8 @@
               "MoleculeName": "CYP1A2"
             },
             {
-              "Name": "Glomerular Filtration-4% Urine"
+              "Name": "Glomerular Filtration-4% Urine",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -1471,34 +1516,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 5.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 5.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -1649,7 +1672,7 @@
             },
             {
               "Name": "End time",
-              "Value": 87.0,
+              "Value": 72.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -1706,6 +1729,59 @@
             {
               "Name": "End time",
               "Value": 108.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 72.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 77.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 77.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 87.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -2048,7 +2124,8 @@
               "MoleculeName": "CYP3A4"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -2178,7 +2255,7 @@
             },
             {
               "Name": "End time",
-              "Value": 218.0,
+              "Value": 221.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -2198,7 +2275,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 218.0,
+              "Value": 221.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -2231,7 +2308,7 @@
             },
             {
               "Name": "End time",
-              "Value": 146.0,
+              "Value": 149.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -2244,31 +2321,6 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 146.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 149.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
             }
           ]
         },
@@ -2812,7 +2864,8 @@
               "MoleculeName": "CYP1A2"
             },
             {
-              "Name": "Glomerular Filtration-4% Urine"
+              "Name": "Glomerular Filtration-4% Urine",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -2847,7 +2900,8 @@
               "MoleculeName": "CYP3A4"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
